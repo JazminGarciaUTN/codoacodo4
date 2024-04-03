@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es"> <!-- IDIOMA DE LA PÁGINA ES/EN/IN-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codo Airlines</title>
+    <link rel="shortcut icon" href="/img/codo-airline.ico" type="image/x-icon">
+</head>
+
+<body>
+    <center> 
+        <h1> Codo Airlines </h1>
+        <h2> Bienvenido </h2>
+        
+        <img src="./img/background-pagina.jpg" alt="Imagen estética de viajes" width="800">
+    </center>
+    
+    <br><br>
+    
+    
+    <!-- LISTAS -->
+
+    <h2>Destinos Turísticos</h2>
+    <ul>
+        <li> <a href = "./img/cancun-pagina.jpg"> Cancún </a> </li>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119096.79693455367!2d-86.93880478328084!3d21.12153846838442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4c2b05aef653db%3A0xce32b73c625fcd8a!2zQ2FuY8O6biwgUS5SLiwgTcOpeGljbw!5e0!3m2!1ses-419!2sar!4v1710736203780!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <li> <a href = "./img/floripa-pagina.jpg"> Florianópolis </a> </li>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d452702.6412727972!2d-48.799919005297305!3d-27.570597625233884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9527394eb2c632d7%3A0x81bc550b6a04c746!2sFlorian%C3%B3polis%2C%20Santa%20Catarina%2C%20Brasil!5e0!3m2!1ses-419!2sar!4v1710736261909!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <li> <a href = "./img/mardel-pagina.jpg"> Mar del Plata </a> </li>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100584.56676690026!2d-57.68293398075492!3d-38.01753789975204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584d94d19d34209%3A0xdd9670804bfed126!2sMar%20del%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1710736319272!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </ul>
+
+    <br><br>
+
+    <form action="datos_form.html" method="post" target="_blank">
+    
+        <fieldset>
+        <legend><h2>Contáctenos</h2></legend>
+        <p>
+            <label for="name"> Nombre </label>
+            <input type="text" name="name" id="name">
+        </p>
+            
+        <p>
+            <label for="surname"> Apellido </label>
+            <input type="text" name="surname" id="surname">
+        </p>
+
+        <p>
+            <label for="email"> Email </label>
+            <input type="email" name="email" id="email">
+        </p>
+        
+        <p>
+            <label for="number"> Teléfono </label>
+            <input type="number" name="number" id="number">
+        </p>
+        
+        <!----------- HORARIO ------------>
+        <p><h3>Horario de disponibilidad</h3></p>
+        <p><h4>Desde:</h4></p>
+        <input type="time">
+        <p><h4>Hasta:</h4></p>
+        <input type="time">
+
+        <br>
+
+        <input type="submit" value="Enviar">
+    
+        </fieldset>
+
+    <br><br>
+        <!----------- CLASES ----------->
+        <fieldset>
+            <legend><h2>Seleccione la clase en la que desea viajar</h2></legend>
+            <input type="checkbox" name="section" value="economica"> Económica
+            <input type="checkbox" name="section" value="primera"> Primera Clase
+            <input type="checkbox" name="section" value="ejecutiva"> Clase Ejecutiva
+        </fieldset>
+            
+        
+        
+        <br><br><br><br><br><br><br><br>
+
+    </form>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+</html>
